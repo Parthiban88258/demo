@@ -2,13 +2,25 @@ public class breakstatement {
 
 	public static void main(String[] args) {
 
-		
+		// demo programming for break statement using for loop
+
 		for(int i=1;i<=10;i++) {
 			if (i==6) {
 				
 				break; // jumped out from the loop
 			}
 			System.out.println(i);
+		}
+
+		// adding 
+		for (int a=1;a<=10;a++) {
+			if(a%2==0) {
+				System.out.println(a + "even");
+			}
+			else {
+				System.out.println(a+"odd");
+			}
+			
 		}
 	}
 
