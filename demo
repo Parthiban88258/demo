@@ -11,6 +11,17 @@ public class breakstatement {
 			}
 			System.out.println(i);
 		}
+
+		// adding 
+		for (int a=1;a<=10;a++) {
+			if(a%2==0) {
+				System.out.println(a + "even");
+			}
+			else {
+				System.out.println(a+"odd");
+			}
+			
+		}
 	}
 
 }
